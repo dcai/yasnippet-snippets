@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: _.for
+# key: _.for
+# group: lodash
+# --
+
+_.forEach(${1:list}, (item, index) => {
+  $0
+});

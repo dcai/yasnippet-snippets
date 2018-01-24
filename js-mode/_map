@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: _.map
+# key: _.map
+# group: lodash
+# --
+
+_.map(${1:list}, (item, index) => item.${2:key});

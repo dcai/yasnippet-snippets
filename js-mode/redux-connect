@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: redux-connect
+# key: redux-connect
+# group: react
+# --
+
+import { connect } from 'react-redux';
+
+export default connect(
+  (state, ownProps) => ({
+    ${2:newprop}: state.${3:statekey}
+  }),
+  dispatch => ({
+    dispatch: dispatch
+  })
+)($1);

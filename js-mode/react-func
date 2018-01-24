@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: react-func
+# key: react-func
+# group: react
+# --
+
+import React from 'react';
+
+export default props => (<div>{props.${1:label}}</div>);

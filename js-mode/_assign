@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: _.assign 
+# key: _.assign 
+# group: lodash
+# --
+
+_.assign({}, ${1:state}, {
+  $0
+});

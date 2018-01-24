@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: _.reduce
+# key: _.reduce
+# group: lodash
+# --
+
+_.reduce(${1: [1, 2, 3]}, (acc, value, index) => ${2: acc + value}, 0);

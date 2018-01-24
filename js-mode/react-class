@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: react-class
+# key: react-class
+# group: react
+# --
+import React from 'react';
+export ${1:default} class ${2:Component} extends React.Component {
+  render() {
+    return (<div>${3}</div>);
+  }
+  $0
+}

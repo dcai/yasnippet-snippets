@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: axios
+# key: axios
+# group: react
+# --
+
+import axios from 'axios';
+
+axios.get(`${1:http://httpbin.org/get}`).then(res => ${2:res.data}).catch(error => ${3:console.error(error)});
