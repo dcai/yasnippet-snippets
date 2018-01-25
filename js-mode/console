@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: console.info
+# key: con
+# --
+console.info('${1:logging}'$2);
